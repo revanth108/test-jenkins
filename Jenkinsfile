@@ -8,8 +8,10 @@ pipeline {
 
 				}
 		    }
-	}
-	stages {
+	
+
+
+	
 		stage('Test'){
 			steps{
 					echo "Test"
@@ -17,8 +19,8 @@ pipeline {
 
 				}
 		    }
-	}
-	stages {
+	
+	
 		stage('Integration Test'){
 			steps{
 					echo "Integration Test"
@@ -26,6 +28,7 @@ pipeline {
 
 				}
 		    }
-	}
+	
 
-	}
+		}
+}
